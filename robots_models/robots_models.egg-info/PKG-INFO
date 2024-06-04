@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: robots-models
+Version: 0.1
+Summary: Custom robots models for Python Robotics Toolbox
+Home-page: #
+Author: Juan Helios García Guzmán
+Author-email: jhelg@ugr.es
+License: MIT

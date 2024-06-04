@@ -1,0 +1,1 @@
+{"path_generator_name": "random", "description": 1000, "model": "lbr_iiwa", "path_name": "r0", "params": {"n": 8}, "save_dir": "/home/diego/Kuka_iiwa/paths/data", "num_points": 1000}

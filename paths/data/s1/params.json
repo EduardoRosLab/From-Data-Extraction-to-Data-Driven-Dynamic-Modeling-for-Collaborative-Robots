@@ -1,0 +1,1 @@
+{"path_generator_name": "pyramid", "description": 1000, "model": "lbr_iiwa", "path_name": "s1", "params": {"center": [0.0, 0.55, 0.4], "radius_limits": [0.1], "height": 0.1, "num_loops": 4, "mode": 1, "orientation": [0.0, -3.14159, 0.0], "filter_length": 3}, "save_dir": "/home/diego/Kuka_iiwa/paths/data", "num_points": 1000}

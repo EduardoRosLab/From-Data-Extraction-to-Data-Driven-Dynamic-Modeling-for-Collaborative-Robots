@@ -1,0 +1,54 @@
+{
+    "path_name": "s1",
+    "max_value": 5,
+    "max_evaluations": 4000,
+    "tam_population": 80,
+    "controller_name": "spea_s1",
+    "duration_array": [
+        1000
+    ],
+    "distribution_index": 20,
+    "algorithm": "spea",
+    "trials": [
+        1
+    ],
+    "controller_indexes": [
+        -1
+    ],
+    "acc_func": "euclidean",
+    "torque_func": "squared_derivative",
+    "dataset_name": "test_local",
+    "max_torques": [
+        320.0,
+        320.0,
+        176.0,
+        176.0,
+        110.0,
+        40.0,
+        40.0
+    ],
+    "joint_limits": [
+        2.96706,
+        2.094395,
+        2.96706,
+        2.094395,
+        2.96706,
+        2.094395,
+        3.054326
+    ],
+    "joint_names": [
+        "joint_a1",
+        "joint_a2",
+        "joint_a3",
+        "joint_a4",
+        "joint_a5",
+        "joint_a6",
+        "joint_a7"
+    ],
+    "optimization_seeds": [
+        "None"
+    ],
+    "trial": 1,
+    "duration": 1000,
+    "experiment_dir": "/ros_app/data/PD/spea_s1_1000_80_1/"
+}

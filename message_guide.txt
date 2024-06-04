@@ -1,0 +1,13 @@
+string joints_filename - nombre del archivo con la trayectoria de las articulaciones. Ejemplo: /paths/data/spiral/joints_2000
+string velocity_filename - nombre del archivo con las velocidades que deben tener las articulaciones en cada momento. Ejemplo: /paths/data/spiral/velocity_2000
+uint16 extra_steps 500 - ciclos de control que se le dejan al controlador para volver a la posición inicial.
+float32[] kp - vector con las ganancias proporcionales del controlador.
+float32[] kd - vector con las ganancias derivativas del controlador.
+string output_filename - dirección en la que guardar el resultado de la ejecución
+uint16 id - id de la ejecución. Debe ser distinto de 0 y distinto de la iteración anterior.
+uint16 evaluation - id de la evaluación. Útil para seguir una traza del entrenamiento.
+string path - nombre de la trayectoria que se realiza. Útil para saber qué tipo de datos se han sacado.
+string command - etiqueta para diferenciar si se está entrenando o extrayendo los datos finales.
+float32[] max_torques - Valores máximos de los torques de cada articulación
+float32[] joint_limits - Limite de torsión cada articulación.
+string[] joint_names - Nombre de cada articulación. Útil cuando hay más de 1 robot.

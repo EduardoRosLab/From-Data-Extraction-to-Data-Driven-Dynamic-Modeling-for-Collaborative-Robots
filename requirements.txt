@@ -1,0 +1,12 @@
+jsonschema==4.16.0
+spatialmath-python
+roboticstoolbox-python
+ruckig==0.8.4
+movement-primitives==0.5.0
+pin==2.6.12
+typer[all]
+mlflow
+bayesian-optimization
+pyqt5
+jmetalpy
+tensorflow==2.15.1

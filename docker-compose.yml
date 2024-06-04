@@ -1,0 +1,19 @@
+services:
+  kuka_container:
+    build:
+      context: ./
+      args:
+        ROS_DISTRO: ${ROS_DISTRO}
+        DCMAKE_BUILD_TYPE: ${DCMAKE_BUILD_TYPE}
+    image: ros
+    container_name: "kuka_container"
+
+    network_mode: none
+
+    env_file:
+      - .env
+    volumes:
+      - ./data:/ros_app/data
+      - ./paths:/ros_app/paths
+      - ./optimization:/optimization
+      - ./ML_model:/ML_model

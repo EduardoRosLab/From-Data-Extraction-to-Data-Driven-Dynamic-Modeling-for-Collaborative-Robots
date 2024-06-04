@@ -18,3 +18,14 @@ DCMAKE_BUILD_TYPE=Debug
 MLFLOW_TRACKING_URI=<path to mlflow tracking directory (anything works)>
 ```
 
+```
+docker compose run --rm kuka_container sh -c "python3 /optimization/optimize.py <configuration file (e.g. /optimization/experiments/spiral/spiral.json)"
+```
+
+```
+docker compose run --rm kuka_container sh -c "python3 /optimization/extract_data.py"
+```
+
+```
+python3 optimization/simulateBRNN.py
+```

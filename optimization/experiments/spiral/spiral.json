@@ -1,0 +1,10 @@
+{
+    "max_value": 5,
+    "max_evaluations": 4000,
+    "tam_population":[80],
+    "duration_array": [1000],
+    "trials":[1],
+    "path_name": "s1",
+    "algorithm": "spea",
+    "controller_name": "spea_s1"
+}
